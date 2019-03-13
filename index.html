@@ -1,0 +1,58 @@
+<html>
+
+<head>
+<link rel="stylesheet" href="estilo.css">
+    <title>Aplicando diferentes filtros</title>
+</head>
+
+<body>
+  <h1> DIVIERTETE !!! </h1>
+  <p>
+<canvas id="uno"> </canvas>  
+    </p>
+  <p>
+    
+  <input type = "file"
+       multiple = "false"
+       accept = "image/*"
+       id = "fentrada"
+       onchange = "loadimagen()">
+    
+  <input type = "button"
+       value = "Rojos"
+       onclick = "applyrojo()">
+    
+    <input type = "button"
+       value = "Grises"
+       onclick = "applyGrises()">
+    
+  <input type = "button"
+       value = "Arcoiris"
+       onclick = "applyarcoiris()">
+    
+    <input type = "button"
+       value = "Matiz Rojo"
+       onclick = "applymatizrojos()">
+    
+      <input type = "button"
+       value = "Marco Especial"
+       onclick = "Agregarmarco()">
+    
+    <input type = "button"
+       value = "Special Rainbow"
+        onclick = "Rainbow2()">
+     <input type = "button"
+       value = "Blur"
+       onclick = "Blurde()">
+    
+ <input type = "button"
+       value = "Reset"
+       onclick = "Reset()">
+ 
+
+
+    
+</body>
+       <script src="https://www.dukelearntoprogram.com/course1/common/js/image/SimpleImage.js"></script>
+<script src="main.js"></script>
+</html>
